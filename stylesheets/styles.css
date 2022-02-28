@@ -9,10 +9,16 @@ body
 
 section
 {
-    padding-left: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     background-color: white;
     border: 1px solid white;
     border-radius: 3px;
+    text-align: justify;
+    float: left;
+    margin: 0 1.5%;
+    width: 63%;
+    display: block;
 }
 
 h1
@@ -25,6 +31,8 @@ h1
 footer
 {
     text-align: center;
+    clear: both;
+    margin-bottom: 0;
 }
 
 nav{
@@ -53,3 +61,22 @@ nav ul li a{
 
 nav ul li:hover 
 { background-color: darkgray;}
+
+aside{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    text-align: justify;
+    float: right;
+    margin: 0 1.5%;
+    width: 15%;
+    display: block;
+}
+
+#asideAlbumCover{
+    width : 100%;
+    padding-bottom: 20px;
+    align-self: center;
+}
