@@ -9,16 +9,30 @@ body
 
 section
 {
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    padding: 2.5%;
     background-color: white;
     border: 1px solid white;
     border-radius: 3px;
     text-align: justify;
     float: left;
-    margin: 0 1.5%;
+    margin: 1.5%;
     width: 63%;
     display: block;
+}
+
+aside
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    text-align: justify;
+    float: right;
+    width: 15%;
+    margin: 1.5%;
+    display: block;
+
 }
 
 h1
@@ -30,22 +44,37 @@ h1
 
 footer
 {
-    text-align: center;
     clear: both;
-    margin-bottom: 0;
+    position: fixed;
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 3%;
+    background-color: white;
+    display: block;
+}
+footer p
+{
+    text-align: center;
+    color: #75C5E6;
 }
 
-nav{
+nav
+{
     background-color: #75C5E6;
     padding: 3px;
 }
 
-nav ul{
+nav ul
+{
     text-align: center;
     font-size: 1.2em;
 }
 
-nav ul li{
+nav ul li
+{
     list-style-type: none;
     background-color: #75C5E6;
     display: inline;
@@ -54,7 +83,8 @@ nav ul li{
     border-radius: 3px;
 }
 
-nav ul li a{
+nav ul li a
+{
     color: white;
     text-decoration: none;
 }
@@ -62,21 +92,34 @@ nav ul li a{
 nav ul li:hover 
 { background-color: darkgray;}
 
-aside{
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 3px;
-    text-align: justify;
-    float: right;
-    margin: 0 1.5%;
-    width: 15%;
-    display: block;
-}
 
-#asideAlbumCover{
+#asideAlbumCover
+{
     width : 100%;
     padding-bottom: 20px;
     align-self: center;
+}
+
+#mediaIcons
+{
+    width: 6%;
+    align-self: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto;
+}
+
+#largeImages
+{
+    width: 90%;
+    margin: auto;
+}
+
+.smallerImages
+{
+    width: 30%;
+    margin: auto;
+    float: left;
+    padding-right: 2.5%;
+    padding-bottom: 2.5%;
 }
