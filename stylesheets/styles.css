@@ -32,7 +32,6 @@ aside
     width: 15%;
     margin: 1.5%;
     display: block;
-
 }
 
 h1
@@ -93,25 +92,19 @@ nav ul li:hover
 { background-color: darkgray;}
 
 
-#asideAlbumCover
+.asideAlbumCover
 {
     width : 100%;
     padding-bottom: 20px;
     align-self: center;
 }
 
-#mediaIcons
+.mediaIcons
 {
     width: 6%;
     align-self: center;
     padding-left: 5%;
     padding-right: 5%;
-    margin: 0 auto;
-}
-
-#largeImages
-{
-    width: 90%;
     margin: auto;
 }
 
@@ -122,4 +115,17 @@ nav ul li:hover
     float: left;
     padding-right: 2.5%;
     padding-bottom: 2.5%;
+}
+
+iframe, object, embed 
+{
+    max-width: 100%;
+}
+
+#centre
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
