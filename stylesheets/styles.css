@@ -20,6 +20,19 @@ section
     display: block;
 }
 
+.albumSection
+{
+    padding: 2.5%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    text-align: justify;
+    float: left;
+    margin: 1.5%;
+    width: 45%;
+    display: block;
+}
+
 aside
 {
     padding-left: 5%;
