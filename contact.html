@@ -1,0 +1,120 @@
+<!Doctype HTML>
+<!-- Comments-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="College project website">
+        <meta name="keywords" content="Lovejoy">
+
+        <title>Lovejoy</title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/styles.css"/>
+        <link rel="shortcut icon" type="image/jpg" href="images/Lovejoy Logo.jpeg"/>
+        <style>
+            body{background-color: #75C5E6;}
+            body{
+                font-family: sans-serif;
+                background-image: url(images/groupband.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin: 10px;
+            }
+            main{
+                margin: 15pc 200px;
+                padding: 20px;
+                border: black solid 1px;
+                background: white;
+                min-height: 500px;
+            }
+
+            header p{
+                font-style: italic;
+                text-align: center;
+                font-weight: 900;
+            }
+
+            .required{
+                font-weight: bold;
+                color: red;
+            }
+
+            label{
+                float: left;
+                width: 112px;
+                padding-right: 10px;
+                text-align: right;
+            }
+
+            input{
+                margin-left: 1em;
+                margin-bottom: .5em;
+                width: 220px;
+            }
+
+            input[type="checkbox"]{width: 15px;}
+            input[type="radio"]{width: 10px;}
+
+            #button, #reset{
+                margin-top: .5em;
+                width: 8em;
+                background-color: orange;
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <img style="float:left; margin-right:15px; padding-left: 10px;" width="100" 
+            src="images/groupside.jpg" alt="group pic"/>
+            <h1>Lovejoy Fanpage</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="albums.html">Albums</a></li>
+                    <li><a href="bandmembers.html">Band Members</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <p>Any queries or feedback, please complete and submit</p>
+        </header>
+
+        <main>
+            <section>
+                <h3>Please enter the following information:</h3>
+                <form action="http://foo.com" method="post">
+                <label for="first_name">First name:<span class="required">*</span></label>
+                <input type="text" name="first_name" id="first_name" autofocus required> <br>
+                <label for="last_name">Last name:<span class="required">*</span></label>
+                <input type="text" name="last_name" id="last_name" required> <br>
+                <label for="email">Email:<span class="required">*</span></label>
+                <input type="email" name="email" id="email" required placeholder="johndoe@example.com"> <br>
+                <label for="gender1">Gender:</label>
+                <input type="radio" id="gender1" name="gender" value="male">Male
+                <input type="radio" id="gender2" name="gender" value="female">Female
+                <input type="radio" id="gender3" name="gender" value="other">Other <br>
+
+                <fieldset>
+                    <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+                    <input type="checkbox" id="marginal1" name="hear" value="paper"> Newspaper <br>
+                    <input type="checkbox" id="marginal2" name="hear" value="friend"> Friend <br>
+                    <input type="checkbox" id="marginal3" name="hear" value="Add"> Others <br>
+                </fieldset><br>
+
+                <label for="message">Query: </label>
+                <textarea cols="50" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea> <br>
+                <input type="submit" name="submit" id="button" value="Submit">
+                <input type="reset" name="reset" id="reset">
+                </form>
+
+                <p style="margin-left: 138px;"><span class="required">*</span><em> indicates a required field</em></p>
+            </section>
+        </main>
+        <footer>
+                <p><b>Follow the band's socials</b></p>
+                <a href="https://twitter.com/lvjyonline?lang=en"><img class="mediaIcons" src="images/twitterlogo.png" alt="twitter logo"/></a>
+                <a href="https://www.youtube.com/channel/UC3S-tYM-oNvzuCQHD8cUvqg"><img class="mediaIcons" src="images/youtubelogo.png" alt="youtube logo"/></a>
+                <a href="https://www.instagram.com/lovejoyonline/?hl=en"><img class="mediaIcons" src="images/instagramlogo.png" alt="instagram logo"/></a>
+            <p>&copy;2022</p>
+        </footer>
+    </body>
+    </html>

@@ -143,3 +143,11 @@ iframe, object, embed
     margin-right: auto;
     width: 90%;
 }
+
+.columns{
+    column-count: 2;
+    column-rule: 1px solid black;
+    column-gap: 100px;
+    padding: 2px;
+    text-align: justify;
+}
