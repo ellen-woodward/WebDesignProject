@@ -18,18 +18,15 @@
                 background-size: cover;
                 margin: 10px;
             }
-            main{
-                margin: 15pc 200px;
-                padding: 20px;
+            section{
+                width: 63%;
+                margin: 10px;
+                padding: 45px;
                 border: black solid 1px;
                 background: white;
                 min-height: 500px;
-            }
-
-            header p{
-                font-style: italic;
-                text-align: center;
-                font-weight: 900;
+                display: block;
+                float: right;
             }
 
             .required{
@@ -59,6 +56,11 @@
                 background-color: orange;
                 border: 2px solid black;
             }
+
+            article{
+                width: 15%;
+                float: left;
+            }
         </style>
     </head>
     <body>
@@ -71,15 +73,15 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="albums.html">Albums</a></li>
-                    <li><a href="bandmembers.html">Band Members</a></li>
+                    <li id="active"><a href="bandmembers.html">Band Members</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </nav>
-            <p>Any queries or feedback, please complete and submit</p>
         </header>
 
-        <main>
+        <main style="float: right;">
             <section>
+                <p style="text-align: center; font-weight: 900; font-style: italic;">Any queries or feedback, please complete and submit</p>
                 <h3>Please enter the following information:</h3>
                 <form action="http://foo.com" method="post">
                 <label for="first_name">First name:<span class="required">*</span></label>
@@ -109,6 +111,16 @@
                 <p style="margin-left: 138px;"><span class="required">*</span><em> indicates a required field</em></p>
             </section>
         </main>
+
+        <aside style="float: left;">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="albums.html">Albums</a></li>
+                <li id="active"><a href="bandmembers.html">Band Members</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </aside>
+
         <footer>
                 <p><b>Follow the band's socials</b></p>
                 <a href="https://twitter.com/lvjyonline?lang=en"><img class="mediaIcons" src="images/twitterlogo.png" alt="twitter logo"/></a>

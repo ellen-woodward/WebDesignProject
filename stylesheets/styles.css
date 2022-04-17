@@ -105,6 +105,8 @@ nav ul li a
 nav ul li:hover 
 { background-color: darkgray;}
 
+#active
+{background-color: rgb(94, 94, 133)}
 
 .asideAlbumCover
 {
@@ -150,4 +152,20 @@ iframe, object, embed
     column-gap: 100px;
     padding: 2px;
     text-align: justify;
+}
+
+article{
+    padding: 2.5%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    text-align: justify;
+    float: left;
+    margin: 1.5%;
+    display: block;
+}
+
+#bandHeading{
+    color: white; 
+    padding-left: 2.5%;
 }
