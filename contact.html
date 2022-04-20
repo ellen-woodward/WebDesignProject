@@ -22,11 +22,9 @@
                 width: 63%;
                 margin: 10px;
                 padding: 45px;
-                border: black solid 1px;
+                border: white solid 1px;
                 background: white;
                 min-height: 500px;
-                display: block;
-                float: right;
             }
 
             .required{
@@ -56,11 +54,6 @@
                 background-color: orange;
                 border: 2px solid black;
             }
-
-            article{
-                width: 15%;
-                float: left;
-            }
         </style>
     </head>
     <body>
@@ -73,17 +66,17 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="albums.html">Albums</a></li>
-                    <li id="active"><a href="bandmembers.html">Band Members</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="bandmembers.html">Band Members</a></li>
+                    <li id="active"><a href="contact.html">Contact Us</a></li>
                 </ul>
             </nav>
         </header>
 
-        <main style="float: right;">
+        <main>
             <section>
                 <p style="text-align: center; font-weight: 900; font-style: italic;">Any queries or feedback, please complete and submit</p>
                 <h3>Please enter the following information:</h3>
-                <form action="http://foo.com" method="post">
+                <form action="http://foo.com" method="get">
                 <label for="first_name">First name:<span class="required">*</span></label>
                 <input type="text" name="first_name" id="first_name" autofocus required> <br>
                 <label for="last_name">Last name:<span class="required">*</span></label>
@@ -103,23 +96,17 @@
                 </fieldset><br>
 
                 <label for="message">Query: </label>
-                <textarea cols="50" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea> <br>
+                <textarea cols="50" rows="6" id="message" name="message" placeholder=" ßYour message must be less than 200 characters" data-maxlength="200"></textarea> <br>
                 <input type="submit" name="submit" id="button" value="Submit">
                 <input type="reset" name="reset" id="reset">
                 </form>
 
                 <p style="margin-left: 138px;"><span class="required">*</span><em> indicates a required field</em></p>
+                <p> </p>
+                <p><strong>Find us here:</strong></p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80629.23125984608!2d-0.1762292674585537!3d50.83739698835284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48758509f6294167%3A0x9cc6af7a727d0ef9!2sBrighton%2C%20UK!5e0!3m2!1sen!2sie!4v1650487296306!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </main>
-
-        <aside style="float: left;">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="albums.html">Albums</a></li>
-                <li id="active"><a href="bandmembers.html">Band Members</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </aside>
 
         <footer>
                 <p><b>Follow the band's socials</b></p>
