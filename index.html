@@ -1,14 +1,19 @@
 <!Doctype HTML>
-<!-- Comments-->
+<!--
+    Web Design Year 1 Semsester 2
+    College Project
+    Topic - Lovejoy fanpage
+    Date Sumbitted - 23/4/2022
+-->
 <html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="College project website">
-        <meta name="keywords" content="Lovejoy">
+        <meta name="keywords" content="Lovejoy, Indie-rock, band, English">
 
         <title>Lovejoy</title>
         <link rel="stylesheet" type="text/css" href="stylesheets/styles.css"/>
-        <link rel="shortcut icon" type="image/jpg" href="images/Lovejoy Logo.jpeg"/>
+        <link rel="shortcut icon" type="image/jpg" href="images/LovejoyLogo.jpeg"/>
         <style>
             body{background-color: #75C5E6;}
         </style>
@@ -37,18 +42,25 @@
                 <img id="centre" src="images/groupband.jpg" alt="group"/>
 
                 <h3>A little bit about Lovejoy</h3>
-                <p>Lovejoy (also known as LVJY) is an English indie rock band based in Brighton. 
+
+                <!--Used columns-->
+                <article class="columns">
+                    <h4>Background</h4>
+                    <p>Lovejoy (also known as LVJY) is an English indie rock band based in Brighton. 
                     They debuted on May 10, 2021 with their EP Are You Alright? along with a music video for their song One Day. 
                     The band consists of Wilbur Soot (lead vocals, guitar, songwriting), Joe Goldsmith (guitar, songwriting), 
                     Ash Kabosu (bass) and Mark Boardman (drums).</p>
                     <p>They released their second EP Pebble Brain in October 2021, and released their first single, 
                     a cover of the Los Campesinos! song Knee Deep at ATP in December 2021.
                 <a href="https://lovejoy.fandom.com/wiki/Lovejoy_Wiki">read more...</a></p>
+                </article>
                         
-                    <h4>Check out their latest music video</h4>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XhL7qUwjiX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!--Embedded video-->
+                    <h4>Check out their latest music video:</h4>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XhL7qUwjiX0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
 
+            <!--Links on pictures-->
             <aside>
                 <h3>Listen now...</h3>
                 <a href="https://open.spotify.com/album/6rPU1BHqLneslZ1N1EvVdR?si=O5oUKpI6QreDTJBqOZltwg"><img class="asideAlbumCover" src="images/Areyoualright_cover.jpg" alt="album cover"/></a>
@@ -56,7 +68,16 @@
                 <a href="https://open.spotify.com/album/4COjHeRyvJkn9C5a2QnLkr"><img class="asideAlbumCover" src="images/Kneedeep_cover.jpg" alt="album cover"/></a>
             </aside>
         </main>
-        <footer>
+        <footer>      
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="albums.html">Albums</a></li>
+                    <li><a href="bandmembers.html">Band Members</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
                 <p><b>Follow the band's socials</b></p>
                 <a href="https://twitter.com/lvjyonline?lang=en"><img class="mediaIcons" src="images/twitterlogo.png" alt="twitter logo"/></a>
                 <a href="https://www.youtube.com/channel/UC3S-tYM-oNvzuCQHD8cUvqg"><img class="mediaIcons" src="images/youtubelogo.png" alt="youtube logo"/></a>

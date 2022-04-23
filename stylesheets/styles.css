@@ -59,7 +59,7 @@ footer
     clear: both;
     position: fixed;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
     position: relative;
     bottom: 0px;
     width: 100%;
@@ -76,20 +76,20 @@ footer p
 
 nav
 {
-    background-color: #75C5E6;
+    background-color: white;
     padding: 3px;
 }
 
 nav ul
 {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 nav ul li
 {
     list-style-type: none;
-    background-color: #75C5E6;
+    background-color: white;
     display: inline;
     padding: 5px;
     margin: 10px;
@@ -98,8 +98,9 @@ nav ul li
 
 nav ul li a
 {
-    color: white;
+    color: #75C5E6;
     text-decoration: none;
+    font-weight: 500;
 }
 
 nav ul li:hover 
@@ -148,8 +149,8 @@ iframe, object, embed
 
 .columns{
     column-count: 2;
-    column-rule: 1px solid black;
-    column-gap: 100px;
+    column-gap: 25px;
+    column-width: 150px;
     padding: 2px;
     text-align: justify;
 }
@@ -170,3 +171,4 @@ article{
     color: white; 
     padding-left: 2.5%;
 }
+

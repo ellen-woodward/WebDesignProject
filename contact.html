@@ -1,26 +1,29 @@
 <!Doctype HTML>
-<!-- Comments-->
+<!--
+    Web Design Year 1 Semsester 2
+    College Project
+    Topic - Lovejoy fanpage
+    Date Sumbitted - 23/4/2022
+-->
 <html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="College project website">
-        <meta name="keywords" content="Lovejoy">
+        <meta name="keywords" content="Lovejoy, band, query">
 
         <title>Lovejoy</title>
         <link rel="stylesheet" type="text/css" href="stylesheets/styles.css"/>
-        <link rel="shortcut icon" type="image/jpg" href="images/Lovejoy Logo.jpeg"/>
+        <link rel="shortcut icon" type="image/jpg" href="images/LovejoyLogo.jpeg"/>
         <style>
-            body{background-color: #75C5E6;}
             body{
                 font-family: sans-serif;
                 background-image: url(images/groupband.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
-                margin: 10px;
             }
             section{
                 width: 63%;
-                margin: 10px;
+                margin: 20px 14%;
                 padding: 45px;
                 border: white solid 1px;
                 background: white;
@@ -51,7 +54,7 @@
             #button, #reset{
                 margin-top: .5em;
                 width: 8em;
-                background-color: orange;
+                background-color: #75C5E6;
                 border: 2px solid black;
             }
         </style>
@@ -73,6 +76,7 @@
         </header>
 
         <main>
+            <!--Form-->
             <section>
                 <p style="text-align: center; font-weight: 900; font-style: italic;">Any queries or feedback, please complete and submit</p>
                 <h3>Please enter the following information:</h3>
@@ -89,6 +93,7 @@
                 <input type="radio" id="gender3" name="gender" value="other">Other <br>
 
                 <fieldset>
+                    <p style="font-weight: 700;">Where did you find out about us?</p>
                     <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
                     <input type="checkbox" id="marginal1" name="hear" value="paper"> Newspaper <br>
                     <input type="checkbox" id="marginal2" name="hear" value="friend"> Friend <br>
@@ -96,19 +101,29 @@
                 </fieldset><br>
 
                 <label for="message">Query: </label>
-                <textarea cols="50" rows="6" id="message" name="message" placeholder=" ßYour message must be less than 200 characters" data-maxlength="200"></textarea> <br>
+                <textarea cols="50" rows="6" id="message" name="message" placeholder=" Your message must be less than 200 characters" data-maxlength="200"></textarea> <br>
                 <input type="submit" name="submit" id="button" value="Submit">
                 <input type="reset" name="reset" id="reset">
                 </form>
 
                 <p style="margin-left: 138px;"><span class="required">*</span><em> indicates a required field</em></p>
                 <p> </p>
+                <!--Embedded Google Maps-->
                 <p><strong>Find us here:</strong></p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80629.23125984608!2d-0.1762292674585537!3d50.83739698835284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48758509f6294167%3A0x9cc6af7a727d0ef9!2sBrighton%2C%20UK!5e0!3m2!1sen!2sie!4v1650487296306!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </main>
 
         <footer>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="albums.html">Albums</a></li>
+                    <li><a href="bandmembers.html">Band Members</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
                 <p><b>Follow the band's socials</b></p>
                 <a href="https://twitter.com/lvjyonline?lang=en"><img class="mediaIcons" src="images/twitterlogo.png" alt="twitter logo"/></a>
                 <a href="https://www.youtube.com/channel/UC3S-tYM-oNvzuCQHD8cUvqg"><img class="mediaIcons" src="images/youtubelogo.png" alt="youtube logo"/></a>
